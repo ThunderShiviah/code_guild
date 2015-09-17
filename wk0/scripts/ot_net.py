@@ -13,6 +13,7 @@ def net_reg(total_hours, reg_rate):
 
 
 def net(total_hours, reg_rate):
+    """Returns net pay for both normal and overtime hours in a day"""
     reg_hours = 8
     if total_hours <= reg_hours:
         return net_reg(total_hours, reg_rate)
