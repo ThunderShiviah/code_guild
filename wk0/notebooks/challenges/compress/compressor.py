@@ -18,17 +18,17 @@ def groupby_char(lst):
 
     count = 1
 
-    for i in range(len(lst) - 1):
+    for i in range(len(lst) - 1): # we range to the second to last index since we're checking if lst[i] == lst[i + 1]. 
         if lst[i] == lst[i + 1]:
             count += 1        
         else:
-            new_lst.append([lst[i],count])
+            new_lst.append([lst[i],count]) # Create a lst of lists. Each list contains a character and the count of adjacent identical characters.
             count = 1
             
-    new_lst.append((lst[-1],count))
+    new_lst.append((lst[-1],count)) # Return the last character (we didn't reach it with our for loop since indexing until second to last).
 
 
-    grouped = [char*count for [char, count] in new_lst]
+    grouped = [char*count for [char, count] in new_lst] 
 
     return grouped
 
