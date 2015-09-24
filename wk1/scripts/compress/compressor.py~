@@ -2,9 +2,7 @@
 def groupby_char(lst):
     """Returns a list of strings containing identical characters.
     
-    Takes a list of characters produced by running split on a string. 
-    Groups runs (in order sequences) of identical
-    characters into string elements in the list.
+    Takes a list of characters produced by running split on a string. Groups runs (in order sequences) of identical characters into string elements in the list.
     
     Parameters
     ---------

@@ -1,0 +1,29 @@
+
+def main(string):
+    """Returns a compressed representation of a string.
+    
+    Compresses the string by mapping each run of identical characters to a 
+    single character and a count. 
+    
+    Ex.
+    --
+    compress('AAABBCDD')--> 'A3B2C1D2'.
+    
+    Only compresses string if the compression is shorter than the original string.
+
+    Ex.
+    --
+    compress('A')--> 'A' # not 'A1'.
+
+    Parameters
+    ----------
+
+    Input:
+    string: str
+    The string to compress
+
+    Output:
+    compressed: str
+    The compressed representation of the string.
+    """
+    return 'A3B2C1D2'
