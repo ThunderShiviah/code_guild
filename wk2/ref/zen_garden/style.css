@@ -1,0 +1,16 @@
+
+body {
+
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+	color: blue;
+	background-color: cyan;
+	font-family: Arial;
+}
+
+p {
+	color: DarkCyan;
+	font-family: Arial;
+}
