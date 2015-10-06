@@ -104,3 +104,10 @@ def compress(string):
     except TypeError: # If we get something that's not compressible (including NoneType) return None.
         return None
 
+
+if __name__ == "__main__":
+    import sys
+    print(sys.argv[0])
+    string = sys.argv[1]
+    print("string is", string)
+    print("compression is", compress(string))
